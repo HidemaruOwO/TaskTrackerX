@@ -6,7 +6,6 @@ import {
   Message,
   AutocompleteInteraction,
 } from 'discord.js';
-import mongoose from 'mongoose';
 
 export interface SlashCommand {
   command: SlashCommandBuilder | any;

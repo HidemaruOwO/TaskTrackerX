@@ -5,7 +5,6 @@ import {
   sendTimedMessage,
 } from '../functions';
 import { BotEvent } from '../types';
-import mongoose from 'mongoose';
 
 const event: BotEvent = {
   name: 'messageCreate',

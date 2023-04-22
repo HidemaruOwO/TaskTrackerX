@@ -7,9 +7,7 @@ import {
   PermissionsBitField,
   TextChannel,
 } from 'discord.js';
-import GuildDB from './schemas/Guild';
 import { GuildOption } from './types';
-import mongoose from 'mongoose';
 
 type colorType = 'text' | 'variable' | 'error';
 
