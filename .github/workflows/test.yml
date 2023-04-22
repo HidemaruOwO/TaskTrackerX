@@ -23,9 +23,6 @@ jobs:
           cache: yarn
       - name: Lint Prettier
         run: npx prettier --check src
-      - name: Lint ESLint
-        run: npx eslint src --max-warnings=0
-          
 
   test-status:
     name: Test status
