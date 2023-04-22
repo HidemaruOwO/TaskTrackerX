@@ -1,8 +1,4 @@
-import {
-  Client,
-  GatewayIntentBits,
-  Collection,
-} from 'discord.js';
+import { Client, GatewayIntentBits, Collection } from 'discord.js';
 const { Guilds, MessageContent, GuildMessages, GuildMembers } =
   GatewayIntentBits;
 const client = new Client({

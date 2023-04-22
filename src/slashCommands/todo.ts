@@ -1,14 +1,11 @@
-import {
-  SlashCommandBuilder,
-  EmbedBuilder,
-} from 'discord.js';
+import { SlashCommandBuilder, EmbedBuilder } from 'discord.js';
 import { getThemeColor } from '../functions';
 import { SlashCommand } from '../types';
 
 const command: SlashCommand = {
   command: new SlashCommandBuilder()
     .setName('todo')
-    .setDescription("Show help for the ToDo command"),
+    .setDescription('Show help for the ToDo command'),
   execute: (interaction) => {
     const commands: string[] = [
       '`/todo add <title> <value>`: Create ToDo',
@@ -16,7 +13,7 @@ const command: SlashCommand = {
       '`/todo delete`: Delete ToDo',
       '`/todo list <isShowDone>`: Show ToDo list',
       '`/todo setchannel <channel>`: Set the channel to be notified of ToDo',
-    ]
+    ];
 
     interaction.reply({
       embeds: [

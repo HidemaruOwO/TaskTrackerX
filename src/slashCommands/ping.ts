@@ -1,7 +1,4 @@
-import {
-  SlashCommandBuilder,
-  EmbedBuilder,
-} from 'discord.js';
+import { SlashCommandBuilder, EmbedBuilder } from 'discord.js';
 import { getThemeColor } from '../functions';
 import { SlashCommand } from '../types';
 
