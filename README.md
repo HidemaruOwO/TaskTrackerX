@@ -2,20 +2,19 @@
 
 # TaskTrackerX 👻
 
-[![Test CLI](https://github.com/HidemaruOwO/TaskTrackerX/actions/workflows/build-test.yml/badge.svg)](https://github.com/HidemaruOwO/pummit/actions/workflows/build-test.yml)
+[![Test CLI](https://github.com/HidemaruOwO/TaskTrackerX/actions/workflows/test.yml/badge.svg)](https://github.com/HidemaruOwO/pummit/actions/workflows/build-test.yml)
 ![最終コミット](https://img.shields.io/github/last-commit/HidemaruOwO/TaskTrackerX?style=flat-square)
 ![リポジトリのスター](https://img.shields.io/github/stars/HidemaruOwO/TaskTrackerX?style=flat-square)
 ![問題](https://img.shields.io/github/issues/HidemaruOwO/TaskTrackerX?style=flat-square)
 ![オープンな問題](https://img.shields.io/github/issues-raw/HidemaruOwO/TaskTrackerX?style=flat-square)
 ![バグの問題](https://img.shields.io/github/issues/HidemaruOwO/TaskTrackerX/bug?style=flat-square)
 
-![image](https://user-images.githubusercontent.com/82384920/225959857-76495875-c426-4669-a8d4-372ebf3acfad.png)
+![image](/assets/tasktrackerx.png)
 
 ## What is this?
 
 You can easily create a nicely shaped committed message like this one
 
-![image](/assets/tasktrackerx.png)
 
 </div>
 
