@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - '*'
+permissions:
+  contents: write
+  statuses: write
 
 jobs:
   test:
