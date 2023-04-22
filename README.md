@@ -11,13 +11,15 @@
 
 ![image](/assets/tasktrackerx.png)
 
+[Add Server](https://discord.com/api/oauth2/authorize?client_id=1099302210992615424&permissions=326954395664&scope=applications.commands%20bot)
+
 ## What is this?
 
 You can easily create a nicely shaped committed message like this one
 
 </div>
 
-## Features
+## Features ✨
 
 - 🟦 Typescript
 - 🔥 Slash commands (supports auto complete!)
