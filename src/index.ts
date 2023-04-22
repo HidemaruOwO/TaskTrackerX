@@ -15,5 +15,5 @@ const handlersDir = join(__dirname, "./handlers")
 readdirSync(handlersDir).forEach(handler => {
     require(`${handlersDir}/${handler}`)(client)
 })
-
+//Token Login
 client.login(process.env.TOKEN)
