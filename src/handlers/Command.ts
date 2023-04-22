@@ -20,13 +20,6 @@ module.exports = (client: Client) => {
     client.slashCommands.set(command.command.name, command);
   });
 
-  readdirSync(commandsDir).forEach((file) => {
-    if (!file.endsWith('.js')) return;
-    const command: Command = require(`${commandsDir}/${file}`).default;
-    commands.push(command);
-    client.commands.set(command.name, command);
-  });
-
   const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 
   rest

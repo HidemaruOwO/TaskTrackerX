@@ -2,7 +2,6 @@ import {
   Client,
   GatewayIntentBits,
   Collection,
-  PermissionFlagsBits,
 } from 'discord.js';
 const { Guilds, MessageContent, GuildMessages, GuildMembers } =
   GatewayIntentBits;

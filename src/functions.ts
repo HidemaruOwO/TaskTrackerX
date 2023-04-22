@@ -59,23 +59,4 @@ export const sendTimedMessage = (
   return;
 };
 
-export const getGuildOption = async (guild: Guild, option: GuildOption) => {
-  if (mongoose.connection.readyState === 0)
-    throw new Error('Database not connected.');
-  const foundGuild = await GuildDB.findOne({ guildID: guild.id });
-  if (!foundGuild) return null;
-  return foundGuild.options[option];
-};
 
-export const setGuildOption = async (
-  guild: Guild,
-  option: GuildOption,
-  value: any,
-) => {
-  if (mongoose.connection.readyState === 0)
-    throw new Error('Database not connected.');
-  const foundGuild = await GuildDB.findOne({ guildID: guild.id });
-  if (!foundGuild) return null;
-  foundGuild.options[option] = value;
-  foundGuild.save();
-};
