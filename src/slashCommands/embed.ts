@@ -104,9 +104,10 @@ const command: SlashCommand = {
           text: 'Test embed message',
           iconURL: interaction.client.user?.avatarURL() || undefined,
         });
-      const selectedTextChannel = interaction.channel?.client.channels.cache.get(
-        options.channel.toString(),
-      ) as TextChannel;
+      const selectedTextChannel =
+        interaction.channel?.client.channels.cache.get(
+          options.channel.toString(),
+        ) as TextChannel;
       selectedTextChannel.send({ embeds: [embed] });
       return interaction.editReply({
         content: 'Embed message successfully sent.',

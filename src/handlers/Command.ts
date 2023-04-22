@@ -14,7 +14,8 @@ module.exports = (client: Client) => {
 
   readdirSync(slashCommandsDir).forEach((file) => {
     if (!file.endsWith('.js')) return;
-    const command: SlashCommand = require(`${slashCommandsDir}/${file}`).default;
+    const command: SlashCommand =
+      require(`${slashCommandsDir}/${file}`).default;
     slashCommands.push(command.command);
     client.slashCommands.set(command.command.name, command);
   });
