@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "cls && node build/index.js"
+        "build": "tsc",
+        "start": "node build/index.js",
+        "test": "tsc && node build/index.js"
     },
     "keywords": [],
     "author": "MericcaN41",
@@ -14,8 +16,7 @@
         "@types/node": "^18.7.14",
         "chalk": "^4.1.2",
         "discord.js": "14.3.0",
-        "dotenv": "^16.0.2",
-        "mongoose": "^6.5.4"
+        "dotenv": "^16.0.2"
     },
     "devDependencies": {
         "typescript": "^4.8.2"
