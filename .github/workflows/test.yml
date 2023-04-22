@@ -26,9 +26,10 @@ jobs:
           cache: yarn
       - name: Install module
         run: yarn install
-
       - name: Lint Prettier
         run: npx prettier --check src
+      - name: Test Compile
+        run: yarn build
 
   test-status:
     name: Test status
