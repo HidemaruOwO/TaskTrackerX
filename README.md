@@ -54,13 +54,13 @@ PREFIX=!
 
 - Build
 
-Build the project using the typescript module and start the bot using the `npm start` command
-
 ```bash
 yarn build
 ```
 
 - Start
+
+Build the project using the typescript module and start the bot using the `npm start` command
 
 ```bash
 yarn start
