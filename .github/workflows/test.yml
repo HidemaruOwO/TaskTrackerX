@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '16'
           cache: yarn
+      - name: Install module
+        run: yarn install
+
       - name: Lint Prettier
         run: npx prettier --check src
 
