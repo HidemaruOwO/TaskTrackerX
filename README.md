@@ -15,28 +15,27 @@
 
 You can easily create a nicely shaped committed message like this one
 
-
 </div>
 
 ## Features
 
--   🟦 Typescript
--   🔥 Slash commands (supports auto complete!)
--   ✉️ Message commands
--   🕛 Cooldowns
--   🏴 Detailed Permissions
--   💪 Event & Command handlers
+- 🟦 Typescript
+- 🔥 Slash commands (supports auto complete!)
+- ✉️ Message commands
+- 🕛 Cooldowns
+- 🏴 Detailed Permissions
+- 💪 Event & Command handlers
 
 ## Installation 😊
 
--   Clone this repository
+- Clone this repository
 
 ```bash
 git clone https://github.com/HidemaruOwO/TaskTrackerX
 cd TaskTrackerX
 ```
 
--   Create .env file
+- Create .env file
 
 Create a file named `.env` and fill it out accordingly
 
@@ -53,16 +52,16 @@ CLIENT_ID=BOTS CLIENT ID
 PREFIX=!
 ```
 
--   Build
+- Build
+
+Build the project using the typescript module and start the bot using the `npm start` command
 
 ```bash
 yarn build
 ```
 
--   Start
+- Start
 
 ```bash
 yarn start
 ```
-
-Build the project using the typescript module and start the bot using the `npm start` command
